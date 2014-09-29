@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffaedae0" >
+
+    <TextView
+        android:id="@+id/txtdiv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtmul"
+        android:layout_alignBottom="@+id/txtmul"
+        android:layout_alignRight="@+id/txtmin"
+        android:drawableTop="@drawable/div"
+       
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="JAJcoders"
+        android:fontFamily="sans-serif"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/txtmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/txtadd"
+        android:layout_alignBottom="@+id/txtadd"
+        android:layout_toLeftOf="@+id/textView1"
+        android:drawableTop="@drawable/minus"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/txtmul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtadd"
+        android:layout_below="@+id/txtadd"
+        android:drawableTop="@drawable/mul"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/txtadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="34dp"
+        android:layout_marginTop="117dp"
+        android:layout_toLeftOf="@+id/txtmin"
+        android:drawableTop="@drawable/add"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+</RelativeLayout>

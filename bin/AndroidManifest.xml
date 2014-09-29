@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.ucuccs.mathchallenge"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/back"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Ac_Adding"
+            android:label="@string/title_activity_ac__adding"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".Ac_min"
+            android:label="@string/title_activity_ac_min"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".Ac_mul"
+            android:label="@string/title_activity_ac_mul"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".Ac_div"
+            android:label="@string/title_activity_ac_div"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".TopNumbers"
+            android:label="@string/title_activity_top_numbers"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".BootNumbers"
+            android:label="@string/title_activity_boot_numbers"
+            android:parentActivityName=".fragment_photos" >
+        </activity>
+        <activity
+            android:name=".Ac_normal_add"
+            android:label="@string/title_activity_ac_normal_add" >
+        </activity>
+        <activity
+            android:name=".Ac_normal_min"
+            android:label="@string/title_activity_ac_normal_min" >
+        </activity>
+        <activity
+            android:name=".Ac_normal_mul"
+            android:label="@string/title_activity_ac_normal_mul" >
+        </activity>
+        <activity
+            android:name=".Ac_normal_div"
+            android:label="@string/title_activity_ac_normal_div" >
+        </activity>
+    </application>
+
+</manifest>
